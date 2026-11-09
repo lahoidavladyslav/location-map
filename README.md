@@ -29,13 +29,13 @@ docker compose up --build
 
 Міграції застосовуються автоматично під час старту контейнера web. Щоб отримати доступ до адмінки та керувати категоріями, створіть суперкористувача:
 
-bash
-docker compose exec web python manage.py createsuperuser
-Адреса	Призначення
-http://localhost:8000/api/	API
-http://localhost:8000/api/docs/	Swagger UI
-http://localhost:8000/api/schema/	OpenAPI-схема
-http://localhost:8000/admin/	Адмінка Django
+- bash
+- docker compose exec web python manage.py createsuperuser
+- Адреса	Призначення
+- http://localhost:8000/api/	API
+- http://localhost:8000/api/docs/	Swagger UI
+- http://localhost:8000/api/schema/	OpenAPI-схема
+- http://localhost:8000/admin/	Адмінка Django
 
 Зупинка: docker compose down. Разом із видаленням даних БД: docker compose down -v.
 
