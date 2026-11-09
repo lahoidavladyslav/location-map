@@ -22,7 +22,7 @@ Python 3.12, Django 5.2, Django REST Framework, PostgreSQL 16, Redis 7, django-f
 Потрібні Docker та Docker Compose.
 
 bash
-git clone https://github.com/<username>/location-map.git
+git clone https://github.com/lahoidavladyslav/location-map.git
 cd location-map
 cp .env.example .env        # PowerShell: Copy-Item .env.example .env
 docker compose up --build
